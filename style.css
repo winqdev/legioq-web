@@ -72,7 +72,7 @@ html {
   }
   #projects {
     width: 100%;
-    background: linear-gradient(90deg, rgb(197, 16, 106),rgb(20, 80, 200));
+    background: #2b2a2a;
     text-align: center;
     padding: 3.5rem 1rem 5rem 1rem;
   }
@@ -139,35 +139,12 @@ html {
     }
   }
   @media only screen and (max-width: 550px) {
+
     .project-grid {
       grid-template-columns: 1fr;
       max-width: 400px;
       gap: 40px;
     }
-  }
-
-  #legioqs {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: 0 auto;
-    border-radius: 15px 15px 15px 15px;
-    border-style: solid;
-    border-color: red;
-    background: yellowgreen;
-    opacity: 0.9;
-  }
-
-  #legioq {
-    font-family: 'Righteous';
-    font-size: 6em;
-    color: red;
-  }
-
-  #legioqq {
-    font-family: 'Righteous';
-    font-size: 6em;
   }
 
   #contacth2 {
