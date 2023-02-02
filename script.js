@@ -4,6 +4,6 @@ function disappear() {
   text.style.opacity = 0;
   setTimeout(function() {
     text.style.display = "none";
-    location.href = "https://t.me/legioq";
+    location.href = "https://www.instagram.com/legion.mp2/";
   }, 1000);
 }
